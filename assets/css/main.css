@@ -4806,39 +4806,3 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
     visibility: visible;
   }
 }
-.scroll-arrow {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 40px;
-  height: 40px;
-  border: 2px solid #ffffff;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #ffffff;
-  color: #000000;
-  text-decoration: none;
-  font-size: 20px;
-  transition: transform 0.3s;
-}
-
-.scroll-arrow::before {
-  content: "";
-  display: block;
-  width: 10px;
-  height: 10px;
-  border-right: 2px solid #000000;
-  border-bottom: 2px solid #000000;
-  transform: rotate(45deg);
-  transition: transform 0.3s;
-}
-
-.scroll-arrow:hover {
-  transform: translateY(5px);
-}
-
-.scroll-arrow:hover::before {
-  transform: rotate(45deg) translateY(-3px);
-}
