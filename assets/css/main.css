@@ -3347,10 +3347,10 @@ table.alt tbody tr td {
     url("../../images/bg.jpg");
   background-size: auto, auto, 100% auto;
   background-position: center, center, top center;
-  background-repeat: repeat, no-repeat, repeat;
+  background-repeat: repeat, no-repeat, no-repeat;
   background-attachment: scroll, scroll, scroll;
 
-  opacity: 0.7;
+  /* opacity: 0.7; */
   z-index: -1;
 }
 
