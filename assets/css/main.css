@@ -3349,6 +3349,8 @@ table.alt tbody tr td {
   background-position: center, center, top center;
   background-repeat: repeat, no-repeat, no-repeat;
   background-attachment: scroll, scroll, scroll;
+  filter: blur(1.5px);
+  opacity: 0.5;
   z-index: -1;
 }
 
